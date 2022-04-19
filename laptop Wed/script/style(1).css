@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    min-width: 150px;
+    margin-right:0px;
+    box-sizing: border-box;
+    
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color:#fff;
+    box-sizing: border-box; 
+    display: run-in;       
+    /*position:fixed;*/
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    
+ } 
+ header div.mainhead {   
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    
+ }
+
+
+
+/*---Tạo menu trong nav---*/
+* {
+    margin:0px;
+    padding:0px;
+}
+nav{
+ clear:both;
+ background-color:black;
+ height:42px;
+}
+.clearfix:after {
+    display:block;
+    clear:both;          
+}
+.wrapper {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+    background:black;
+		}
+ 
+/*----- Phần menu -----*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.menu {
+    width:783.7px;
+	margin:0px auto;
+    background:#FFFFFF;
+    height: 42px;
+    margin-top: 15px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:black;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#FE0004;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+/*----- css cho phần menu lớn-----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding:7.5px 40px;
+    display:inline-block;
+    color:black;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:black;
+}
+/*----css cho menu kéo xuống----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:185%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:white;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:5px 60px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:black;
+}
+
+
+
+
+
+
+/*---Thanh search----*/
+.search input[type=text] {
+  Width: 600px;
+  border:3px solid#00473e ;
+  height: 48px;   
+  text-align: left;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-left:-90px
+}
+
+ .search:hover button.icon:hover{
+   background: #faae2b;
+   margin-left: -40px;  
+ } 
+ .search button.icon{   
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;  
+   border: none;
+   background: #232833;
+   height: 48px;
+   width: 50px;
+   color: #4f5b66;  
+   background: #fff;    
+   border-top: 3px solid #00473e;
+   border-bottom: 3px solid #00473e;
+   border-right: 3px solid #00473e; 
+   margin-left: -50px;  
+   margin-top: 10px;
+ }
+ #giohang a 
+ {
+   color: #faae2b;
+   height: 40px;
+   margin-left: -80px;
+   margin-top: 23px;  
+   text-decoration: none;
+}
+.button.log-in {
+  display: inline-block;
+  border: 2px solid #050c26;
+  border-radius: 4px; 
+  font-family: sans-serif;
+  font-size: 15px;  
+  font-weight: bold;
+  text-align: center;  
+  padding: 11px 15px 8px;
+  text-decoration: none;
+  margin-top: 13px;
+  margin-left: -90px; 
+  color: #00332c;
+}
+
+.button.join {
+  display: inline-block;
+  border: 2px solid #050c26;
+  border-radius: 4px; 
+  font-family: sans-serif;
+  font-size: 17px;  
+  font-weight: bold;
+  text-align: center;  
+  padding: 11px 25px 8px;
+  text-decoration: none;
+  margin-top: 14px;
+  margin-left: 20px;
+  background-color:#00332c;
+  color: white;  
+}
+.button:hover.join:hover{
+    background-color: #2cb67d;
+    border: 2px solid #2cb67d;
+    border-radius: 4px; 
+
+}
+
+
+
+
+
+/*---Cách tạo nút đẹp (coi trên mạng)---*/
+.button:hover.log-in:hover{
+  background-color: #2cb67d;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #2cb67d;
+  border-radius: 4px; 
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0px 20px;
+	margin: -4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+
+
+/*----SAN PHAM----*/
+.laptop{
+ width:200px;
+ height:320px;
+ background-color:white;
+ margin:5px;
+ border-radius:5px;
+ border:1px dashed #79B22F;
+ text-align:center;
+float: left;
+}
+.tenlatop {
+ margin-top:5px;
+ vertical-align:top;
+ height: 40px;
+}
+.tenlaptop a{
+ font-weight:bold;
+ color:#133a62;
+ font-size:14px;
+text-decoration: none
+}
+.tenlaptop a:hover{
+ font-style:italic;
+}
+.hinhlaptop{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 
+20px 0 rgba(0, 0, 0, 0.19);
+ width:190px;
+ height:190px;
+ /*Các thuộc tính dùng để tạo hiểu ứng transform*/
+ transition:all 0.5s ease;
+ 
+}
+
+.dongia {
+ margin-top:10px;
+ font-size:15px;
+}
+.gia{
+ color:red;
+ font-weight:bold;
+}
+.nutchonmua {
+ margin:7px 0px;
+ height:30px;
+}
+section>p{
+	float: right
+}
+section >p {
+padding:10px;
+background:#abd1c6;
+text-align:center;
+font-size: 25px;
+font-weight:bold;
+margin-top:50px
+ }
+
+
+.gia{
+	float: right;
+	margin: 100px;
+	padding:inherit;
+	
+}

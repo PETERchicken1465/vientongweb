@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="script/style1.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <title> Đăng nhập tài khoản </title>
+  
+	
+</head>
+<body>
+<header>	
+<div class="mainhead">
+       <div id ="logo">
+      		<a href="Trang chu.html" title="logo">
+				<img src="image/logo.jpg" alt=" logo" height="55">
+		    </a>
+	   </div>
+
+	   <div class="search">
+		    <input  type="text" name="search" autocomplete="off" placeholder="Tìm sản phẩm bạn mong muốn ..." title="Tìm sản phẩm mong muốn ..." >
+			<button class="icon"><i class="fa fa-search"></i></button>
+	   </div>
+
+	   <div id="giohang">
+		<a href="#" class="fa fa-shopping-cart" style="font-size: 44px;padding-bottom: 18px;"></a>		
+	   	</div>
+
+	   <div id="in404">
+        <a href="Đăng nhập.html" class="button log-in">Đăng nhập</a>
+		<a href="Đăng kí.html" class="button join">Đăng kí</a>
+	   </div>
+	</div>
+    	
+</header>
+	<!--tao 1 menu -->
+ <nav>
+	 <div class="menu">
+        <ul class="clearfix">
+           <li><a href="Trang chu.html">Trang chủ</a></li>
+           <li><a href="#">Laptop <span class="arrow">&#9660;</span></a>
+			<ul class="sub-menu">
+                    <li><a href="laptopasus.html">ASUS</a></li>
+                    <li><a href="laplegion.html">LEGION</a></li>
+                    <li><a href="lapacer.html">ACER</a></li>
+                    <li><a href="#">MSI</a></li>
+                </ul>
+			</li>
+           <li><a href="#">Điện thoại<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+                    <li><a href="#">OPPO</a></li>
+                    <li><a href="#">XIAOMI</a></li>
+                    <li><a href="#">SAMSUNG</a></li>
+                    <li><a href="#">IPHONE</a></li>
+                </ul>
+			</li>
+           <li><a href="#">Phụ kiện<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+                    <li><a href="#">Ghế Gaming</a></li>
+                    <li><a href="#">Tai nghe Gaming</a></li>
+                    <li><a href="#">Chuột Gaming</a></li>
+                    <li><a href="#">Lót chuột</a></li>
+				   	<li><a href="#">loa máy tính</a></li>
+				   	<li><a href="#">Balo laptop</a></li>
+				   
+                </ul>
+			</li>
+           <li><a href="#">Liên hệ<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+			   	<li><a href="https://www.facebook.com/PeterWilliam7898">Boss Duy Tuấn</a></li>
+				<li><a href="https://www.facebook.com/viendeptrai01/">Boss Sinh Viên</a></li>
+			   </ul>
+			</li>
+        </ul>
+</div>
+</nav>
+
+	
+ 
+
+<section>
+    <div class="body">
+        <form  action="#" name="a" >
+        <h2>Đăng nhập</h2>       
+
+            <div class="dn">
+                <input  type="email" onkeyup="check()" id="email" required  placeholder="Email" name="txtEmail" autocomplete="off" >
+         
+                <div class="icons">
+                    <span class="iconError fas fa-exclamation"></span>
+                    <span class="iconSuccess fas fa-check"></span>
+                 </div>            
+                    <div class="error-text">
+                        Xin Hãy Nhập vào và Đúng Định Dạng!
+                    </div> 
+                            <input  type="password"  onkeyup="check()" id="password" name="password" placeholder="Mật khẩu" >  
+                                <div class="icons1">
+                                    <span class="iconError1 fas fa-exclamation"></span>
+                                    <span class="iconSuccess1 fas fa-check"></span>
+                                </div>            
+                                    <div class="error-text1">
+                                        Vui lòng Nhập vào và Đúng Mật Khẩu!
+                                    </div>
+                                            
+              <button type="submit" onClick="return thongtin()"> đăng nhập</button>  
+        </form>
+                    <div class="hehe">
+                    <a href="Đăng kí.html" class="a">Đăng kí thành viên</a>
+                    <a href="#" class="b">Quên Mật Khẩu</a>
+                </div>
+<div class="lgsocial">
+    <ul>
+    <li><div class="dt"></div></li>
+    <li><span class="text">HOẶC</span></li>
+    <li><div class="dt"></div></li>
+</ul>
+</div>
+<div class="icon-login">
+    <ul>
+<li><a href="https://www.facebook.com/v3.3/dialog/oauth?client_id=347499128655783&display=popup&redirect_uri=https%3A%2F%2Fwww.hackerrank.com%2Fhackers%2Fauth%2Ffacebook%2Fcallback&response_type=code&scope=email&state=b0e15d0e4903bd44c7b6c8636a9a265fb180123a6c4369d0" target="_blank"><i class="fa fa-facebook-square" style=" font-size: 45px; color: #097DEB; margin-left: 20px; padding-top:3px;"></i></a></li>
+<li> <div class="dt1"></div></li>
+<li><a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type&client_id=539603982008.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.hackerrank.com%2Fhackers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=f6bd241767beaae64b3896c14693ef93eb201b4fd66bfdfe&flowName=GeneralOAuthFlow"target="_blank"><i class="fa fa-google-plus" style=" font-size: 45px; color: #EA4335; margin-left: 10px; padding-top:3px"></i></a></li>
+<li> <div class="dt1"></div></li>
+<li><a href="https://appleid.apple.com/auth/authorize?client_id=com.beeasy.shopee.vn.serviceid&redirect_uri=https%3A%2F%2Fshopee.vn%2Fcallback%2Fapplesignin&response_type=code%20id_token&state=init&scope=name%20email&response_mode=web_message&frame_id=26530c66-033e-41bf-8489-f004c69760ee&m=11&v=1.5.4" target="_blank"><i class="fa fa-apple" style=" font-size: 45px; color: #979797; margin-left: 20px; padding-top:3px"></i></a></li>
+</ul>
+</div>
+      
+        </div>
+</section>
+<footer>
+<div class="container1">  
+        <div class="col-1">          
+                <h3 class="tieude">Cập nhật thông tin khuyến mãi </h3>
+                <div class="emailkm">
+                    <input type="text"  placeholder="Email của bạn">
+                    <a href="#">Gửi đăng ký</a>
+                </div>
+                <p class="dv">
+                    Đăng ký nhận tin từ VienTongelectronic.com, cơ hội nhận quyền lợi giảm giá riêng biệt
+                    </a>
+                </p>
+                <ul class="list-social">
+                    <li><a href="https://www.facebook.com/" class="social-link "><i class="fa fa-facebook" ></i> </a></li>
+                    <li><a href="https://www.instagram.com/" class="social-link1 "><i class="fa fa-instagram" ></i>  </a></li>
+                    <li><a href="https://www.youtube.com/"  class="social-link1"> <i class="fa fa-youtube-play"></i></a>
+                    </li>                    
+                </ul>
+             
+            
+        </div>
+        <div class="col-2">      
+                <h3 class="tieude">Hỗ trợ khách hàng</h3>
+                <div class="danhsach">
+                    <ul>
+                   <li> <a href="tel:18001234">Hotline : <b>18001234 </b></a></li>
+                     <li> <a href="tel:18001234#">Hướng dẫn mua hàng</a></li>
+                      <li> <a href="#">Chính sách bảo mật</a></li>
+                          <li> <a href="#">Chính sách thanh toán</a></li>
+                            <li><a href="#">Chính sách vận chuyển</a></li>
+                               <li><a href="#">Chính sách bảo hành</a></li>
+                            </ul>
+                
+            </div>
+        </div>
+        <div class="col-3">
+         
+                <h3 class="tieude">Về Viên Tổng </h3>
+                <div class="danhsach">
+                    <ul>
+                     <li> <a href="#">Giới thiệu</a></li>
+                          <li>  <a href="#">Hệ thống cửa hàng</a></li>
+                               <li><a href="#">Tin tuyển dụng</a></li>
+                                   <li>  <a href="#">Cam kết chính hãng</a></li>
+                                      <li> <a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+
+        <div class="col-4"> 
+            <div class="item">
+            <a href="Trang chu.html" ><img src="image/logo.jpg" alt="logo " style="max-width: 150px;margin-bottom: 5px;"></a>           
+            <span class="tieude"> CÔNG TY CỔ PHẦN BÁN LẺ VIÊN TỔNG ELECTRONIC </span>
+            <table>
+              <tbody>               
+                <tr>
+                  <td><i class="fa fa-map-marker"></i></td>
+                  <td> Địa chỉ: 06 Trần Văn Ơn, Phú Hoà, Thủ Dầu Một, Bình Dương</td>
+                </tr>
+                 <tr>
+                  <td> <i class="fa fa-mobile"></i></td>
+                  <td> Email:vientonge@gmail.com.vn</td>
+                </tr>
+                 <tr>
+                  <td><i class="fa fa-phone" ></i></td>
+                  <td> Điện thoại: 012 7895 1234</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        
+
+
+        
+    
+</div>
+</footer>
+</body>
+<script src="javascript/1.js"></script>
+   
+</html>

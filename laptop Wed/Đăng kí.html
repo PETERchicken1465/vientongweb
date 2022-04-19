@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="script/style2.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <title> Đăng Kí tài khoản </title>
+  <!-- <script src="javascript/1.js"></script> -->
+	
+</head>
+<body>
+<header>	
+<div class="mainhead">
+       <div id ="logo">
+      		<a href="Trang chu.html" title="logo">
+				<img src="image/logo.jpg" alt=" logo" height="55">
+		    </a>
+	   </div>
+
+	   <div class="search">
+           <ul>
+		   <li> <input  type="text" name="search" autocomplete="off" placeholder="Tìm sản phẩm bạn mong muốn ..." title="Tìm sản phẩm mong muốn ..." ></li>
+           <li><button class="icon"><i class="fa fa-search"></i></button></li>
+        </ul>
+	   </div>
+
+	   <div id="giohang">
+		<a href="#" class="fa fa-shopping-cart" style="font-size: 44px;padding-bottom: 18px;"></a>
+	   	</div>
+	   <div id="in404">
+        <a href="Đăng nhập.html" class="button log-in">Đăng nhập</a>
+		<a href="Đăng kí.html" class="button join">Đăng kí</a>
+	   </div>
+	</div>	
+</header>
+	<!--tao 1 menu -->
+ <nav>
+	 <div class="menu">
+        <ul class="clearfix">
+           <li><a href="Trang chu.html">Trang chủ</a></li>
+           <li><a href="#">Laptop <span class="arrow">&#9660;</span></a>
+			<ul class="sub-menu">
+                    <li><a href="laptopasus.html">ASUS</a></li>
+                    <li><a href="laplegion.html">LEGION</a></li>
+                    <li><a href="lapacer.html">ACER</a></li>
+                    <li><a href="#">MSI</a></li>
+                </ul>
+			</li>
+           <li><a href="#">Điện thoại<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+                    <li><a href="#">OPPO</a></li>
+                    <li><a href="#">XIAOMI</a></li>
+                    <li><a href="#">SAMSUNG</a></li>
+                    <li><a href="#">IPHONE</a></li>
+                </ul>
+			</li>
+           <li><a href="#">Phụ kiện<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+                    <li><a href="#">Ghế Gaming</a></li>
+                    <li><a href="#">Tai nghe Gaming</a></li>
+                    <li><a href="#">Chuột Gaming</a></li>
+                    <li><a href="#">Lót chuột</a></li>
+				   	<li><a href="#">loa máy tính</a></li>
+				   	<li><a href="#">Balo laptop</a></li>
+				   
+                </ul>
+			</li>
+           <li><a href="#">Liên hệ<span class="arrow">&#9660;</span></a>
+			   <ul class="sub-menu">
+			   	<li><a href="https://www.facebook.com/PeterWilliam7898">Boss Duy Tuấn</a></li>
+				<li><a href="https://www.facebook.com/viendeptrai01/">Boss Sinh Viên</a></li>
+			   </ul>
+			</li>
+        </ul>
+</div>
+</nav>
+
+	
+ 
+
+<section>
+    <div class="body">
+       
+        <h2>Đăng Kí </h2>       
+
+                 <div class="hang">      
+               
+                    <div class="hang1">  <form action="#"name="dangky" method="post">                       
+                      
+                                <ul>
+           
+                                           
+                                                 <li ><label for="name">Họ và tên :</label>
+                                                    <input onkeyup="check()" id="hoten" type="text" name="txtHoTen">
+
+                                                              
+                                                 </li>
+                                                       
+                                                           <li style="padding-top: 15px"><label for ="GioiTinh">Giới tính :</label>
+                                                           <input type="radio"  name="GioiTinh" id="GioiTinh" value="1"> Nam
+                                                           <input type="radio"  name="GioiTinh" id="GioiTinh1" value="2" > Nữ</li>
+                                                      
+           
+                                                                   <li style="padding-top: 15px;">
+                                                                           <li><label for ="ngay"> Ngày sinh :</label>                                                                    
+                                                                           <li style="padding:10px 30px 0px 10px;"><label for ="ngay" > Ngày</label>
+                                                                        <select name="Ngay"style="padding-right: 15px;padding-top:10px;
+                                                                        padding-top:3px;border-radius: 4px;border: 1px solid #DBDBDB;" id="day">
+                                                                           <option value=00 selected></option>
+                                                                                  <option value=01 >01</option>
+                                                                                   <option value=02 >02</option>
+                                                                                   <option value=03 >03</option>
+                                                                                   <option value=04 >04</option>
+                                                                                   <option value=05 >05</option>
+                                                                                   <option value=06 >06</option>
+                                                                                   <option value=07 >07</option>
+                                                                                   <option value=08 >08</option>
+                                                                                   <option value=09 >09</option>
+                                                                                   <option value=10 >10</option>
+                                                                                   <option value=11 >11</option>
+                                                                                   <option value=12 >12</option>
+                                                                                   <option value=13 >13</option>
+                                                                                   <option value=14 >14</option>
+                                                                                   <option value=15 >15</option>
+                                                                                   <option value=16 >16</option>
+                                                                                   <option value=17 >17</option>
+                                                                                   <option value=18 >18</option>
+                                                                                   <option value=19 >19</option>
+                                                                                   <option value=20 >20</option>
+                                                                                   <option value=21 >21</option>
+                                                                                   <option value=22 >22</option>
+                                                                                   <option value=23 >23</option>
+                                                                                   <option value=24 >24</option>
+                                                                                   <option value=25 >25</option>
+                                                                                   <option value=26 >26</option>
+                                                                                   <option value=27 >27</option>
+                                                                                   <option value=28 >28</option>
+                                                                                   <option value=29 >29</option>
+                                                                                   <option value=30 >30</option>
+                                                                                   <option value=31 >31</option>
+                                                                               </select>
+                                                                       <label for ="thang" >Tháng </label>
+                                                                                <select name="thang" style="padding-right: 15px;padding-top:3px;
+                                                                                ;border-radius: 4px;border: 1px solid #DBDBDB;" id="month">
+                                                                                   <option value=00 selected></option>
+                                                                                  <option value=01 >01</option>
+                                                                                   <option value=02 >02</option>
+                                                                                   <option value=03 >03</option>
+                                                                                   <option value=04 >04</option>
+                                                                                   <option value=05 >05</option>
+                                                                                   <option value=06 >06</option>
+                                                                                   <option value=07 >07</option>
+                                                                                   <option value=08 >08</option>
+                                                                                   <option value=09 >09</option>
+                                                                                   <option value=10 >10</option>
+                                                                                   <option value=11 >11</option>
+                                                                                   <option value=12 >12</option>			
+                                                                               </select>
+                                                                       <label for="nam">Năm: </label>
+                                                                       <select name="nam" style="padding-right: 15px;padding-top:4px;border-radius: 4px;border: 1px solid #DBDBDB;"  id ="year">
+                                                                        <option value=00 s></option>
+                                                                        <option value=01>1911</option>
+                                                                        <option value=02>1912</option>
+                                                                        <option value=03>1913</option>
+                                                                        <option value=04>1914</option>
+                                                                        <option value=05>1915</option>
+                                                                        <option value=06>1916</option>
+                                                                        <option value=07>1917</option>
+                                                                        <option value=08>1918</option>
+                                                                        <option value=09>1919</option>
+                                                                        <option value=10>1920</option>
+                                                                        <option value=11>1921</option>
+                                                                        <option value=12>1922</option>
+                                                                        <option value=13>1923</option>
+                                                                        <option value=14>1924</option>
+                                                                        <option value=15>1925</option>
+                                                                        <option value=16>1926</option>
+                                                                        <option value=17>1927</option>
+                                                                        <option value=18>1928</option>
+                                                                        <option value=19>1929</option>
+                                                                        <option value=20>1930</option>
+                                                                        <option value=21>1931</option>
+                                                                        <option value=22>1932</option>
+                                                                        <option value=23>1933</option>
+                                                                        <option value=24>1934</option>
+                                                                        <option value=25>1935</option>
+                                                                        <option value=26>1936</option>
+                                                                        <option value=27>1937</option>
+                                                                        <option value=28>1938</option>
+                                                                        <option value=29>1939</option>
+                                                                        <option value=30>1940</option>
+                                                                        <option value=31>1941</option>
+                                                                        <option value=32>1942</option>
+                                                                        <option value=33>1943</option>
+                                                                        <option value=34>1944</option>
+                                                                        <option value=35>1945</option>
+                                                                        <option value=36>1946</option>
+                                                                        <option value=37>1947</option>
+                                                                        <option value=38>1948</option>
+                                                                        <option value=39>1949</option>
+                                                                        <option value=40>1950</option>
+                                                                        <option value=41>1951</option>
+                                                                        <option value=42>1952</option>
+                                                                        <option value=43>1953</option>
+                                                                        <option value=44>1954</option>
+                                                                        <option value=45>1955</option>
+                                                                        <option value=46>1956</option>
+                                                                        <option value=47>1957</option>
+                                                                        <option value=48>1958</option>
+                                                                        <option value=49>1959</option>
+                                                                        <option value=50>1960</option>
+                                                                        <option value=51>1961</option>
+                                                                        <option value=52>1962</option>
+                                                                        <option value=53>1963</option>
+                                                                        <option value=54>1964</option>
+                                                                        <option value=55>1965</option>
+                                                                        <option value=56>1966</option>
+                                                                        <option value=57>1967</option>
+                                                                        <option value=58>1968</option>
+                                                                        <option value=59>1969</option>
+                                                                        <option value=60>1970</option>
+                                                                        <option value=61>1971</option>
+                                                                        <option value=62>1972</option>
+                                                                        <option value=63>1973</option>
+                                                                        <option value=64>1974</option>
+                                                                        <option value=65>1975</option>
+                                                                        <option value=66>1976</option>
+                                                                        <option value=67>1977</option>
+                                                                        <option value=68>1978</option>
+                                                                        <option value=69>1979</option>
+                                                                        <option value=70>1980</option>
+                                                                        <option value=71>1981</option>
+                                                                        <option value=72>1982</option>
+                                                                        <option value=73>1983</option>
+                                                                        <option value=74>1984</option>
+                                                                        <option value=75>1985</option>
+                                                                        <option value=76>1986</option>
+                                                                        <option value=77>1987</option>
+                                                                        <option value=78>1988</option>
+                                                                        <option value=79>1989</option>
+                                                                        <option value=80>1990</option>
+                                                                        <option value=81>1991</option>
+                                                                        <option value=82>1992</option>
+                                                                        <option value=83>1993</option>
+                                                                        <option value=84>1994</option>
+                                                                        <option value=85>1995</option>
+                                                                        <option value=86>1996</option>
+                                                                        <option value=87>1997</option>
+                                                                        <option value=88>1998</option>
+                                                                        <option value=89>1999</option>
+                                                                        <option value=90>2000</option>
+                                                                        <option value=91>2001</option>
+                                                                        <option value=92>2002</option>
+                                                                        <option value=93>2003</option>
+                                                                        <option value=94>2004</option>
+                                                                        <option value=95>2005</option>
+                                                                        <option value=96>2006</option>
+                                                                        <option value=97>2007</option>
+                                                                        <option value=98>2008</option>
+                                                                        <option value=99>2009</option>
+                                                                        <option value=100>2010</option>
+                                                                        <option value=101>2011</option>
+                                                                        <option value=102>2012</option>
+                                                                        <option value=103>2013</option>
+                                                                        <option value=104>2014</option>
+                                                                        <option value=105>2015</option>
+                                                                        <option value=106>2016</option>
+                                                                        <option value=107>2017</option>
+                                                                        <option value=108>2018</option>
+                                                                        <option value=109>2019</option>
+                                                                        <option value=110>2020</option>
+                                                                        <option value=111>2021</option>
+                                                                        <option value=112>2022</option>			
+                                                                    </select> </li>                                                                  
+                                                                   
+           
+           
+                                          
+                                               <li style="padding-top: 20px"><label for="diachi" >Địa chỉ:</label> <textarea name="diachi" id="diachi" onkeyup="check()" ></textarea></li>
+                                           
+           
+           
+                                                         
+                                                               <li style="padding-top: 20px"><label for="sdt">Điện thoại:</label>
+                                                               <input onkeyup="check()"type="tel" id="tel" name="tel"><br>
+                                                                            <div class="icons_tel">
+                                                                                <span class="iconError_tel fas fa-exclamation"></span>
+                                                                                <span class="iconSuccess_tel fas fa-check"></span>
+                                                                                </div>     
+
+                                                                    <div class="error-text_tel">
+                                                                        Xin Hãy Nhập Đúng Định Dạng!
+                                                                    </div> 
+                                                            </li>
+                                                           
+           
+           
+                                                                 
+                                                                       <li style="padding-top: 10px"><label for="email">Email:</label>
+                                                                            <input onkeyup="check()" id="email" type="email" name="Email"> 
+                                                                            <div class="icons">
+                                                                                <span class="iconError fas fa-exclamation"></span>
+                                                                                <span class="iconSuccess fas fa-check"></span>
+                                                                            </div>     
+            
+                                                                                    <div class="error-text">
+                                                                                        Xin Hãy Nhập Đúng Định Dạng!
+                                                                                    </div> 
+                                                                    
+                                                                    </li> 
+                                                                   
+                                </ul>						
+                      
+                           
+                   </form>
+                </div>
+                   
+    
+           
+                               
+                           
+                              <div class="hang2">
+                                   <form action="#"name="dangky" method="post">                                   
+                                           <ul>                                               
+                                        
+                                               <li><label  for="n">Tên Đăng nhập: </label>
+                                               <input onkeyup="check()" id="dn" type="text" name="txtTenDangNhap" >
+                                                    <div class="icons_dn">
+                                                        <span class="iconError_dn fas fa-exclamation"></span>
+                                                        <span class="iconSuccess_dn fas fa-check"></span>
+                                                    </div> 
+                                              </li>
+                                           
+                                                       
+                                                               <li><label for="p">Mật Khẩu:</label><br>
+                                                               <input onkeyup="check()" id="password1" type="password" name="txtMatKhau" >
+                                                                <div class="icons_p1">
+                                                                    <span class="iconError_p1 fas fa-exclamation"></span>
+                                                                    <span class="iconSuccess_p1 fas fa-check"></span>
+                                                                </div>     
+
+                                                                        <div class="error-text_p1">
+                                                                                Vui lòng Nhập Mật Khẩu !
+                                                                        </div> 
+                                                            
+                                                            
+                                                            </li>
+                                                       
+                                                               
+                                                                       <li><label for="pa">Nhập lại mật khẩu:</label>
+                                                                            <input onkeyup="check()" id="password2" type="password" name="txtNhapLaiMatKhau" >
+                                                                                    <div class="icons_p2">
+                                                                                        <span class="iconError_p2 fas fa-exclamation"></span>
+                                                                                        <span class="iconSuccess_p2 fas fa-check"></span>
+                                                                                    </div>     
+        
+                                                                                <div class="error-text_p2">
+                                                                                        Vui lòng Nhập lại  Mật Khẩu !
+                                                                                </div> 
+                                                                    
+                                                                    
+                                                                      </li>
+                                                                        
+                                                                              
+                                                                        
+                                           </ul>
+                                 
+                                           
+       
+                                   <div class="a" >
+                                       <input type="submit" onClick="return thongtin()" value="Đăng kí " ><a href="dangki.html" ></a>
+                                       <a href="dangki.html"><input type="submit" value="Hủy "> </a>
+                                   </div>
+                                </form>
+                                    <div class="lgsocial">
+                                        <ul>
+
+                                                    <li><div class="dt"></div></li>
+                                                    <li><span class="text">HOẶC</span></li>
+                                                    <li><div class="dt"></div></li>
+                                         </ul>
+
+                                    </div>
+
+
+                                <div class="icon-login">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/v3.3/dialog/oauth?client_id=347499128655783&display=popup&redirect_uri=https%3A%2F%2Fwww.hackerrank.com%2Fhackers%2Fauth%2Ffacebook%2Fcallback&response_type=code&scope=email&state=b0e15d0e4903bd44c7b6c8636a9a265fb180123a6c4369d0" target="_blank"><i class="fa fa-facebook-square" style=" font-size: 55px; color: #097DEB; margin-left: 20px; padding-top:3px;"></i></a></li>
+                                        <li> <div class="dt1"></div></li>
+                                        <li><a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type&client_id=539603982008.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.hackerrank.com%2Fhackers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=f6bd241767beaae64b3896c14693ef93eb201b4fd66bfdfe&flowName=GeneralOAuthFlow"target="_blank"><i class="fa fa-google-plus" style=" font-size: 50px; color: #EA4335; margin-left: 10px; padding-top:3px"></i></a></li>
+                                        <li> <div class="dt1"></div></li>
+                                        <li><a href="https://appleid.apple.com/auth/authorize?client_id=com.beeasy.shopee.vn.serviceid&redirect_uri=https%3A%2F%2Fshopee.vn%2Fcallback%2Fapplesignin&response_type=code%20id_token&state=init&scope=name%20email&response_mode=web_message&frame_id=26530c66-033e-41bf-8489-f004c69760ee&m=11&v=1.5.4" target="_blank"><i class="fa fa-apple" style=" font-size: 50px; color: #979797; margin-left: 20px; padding-top:3px"></i></a></li>
+                                    </ul>
+                                </div> 
+                                      
+                                     
+                       
+                               
+                            </div>
+
+                           
+        </div> 
+</div>
+</section>
+<footer>
+<div class="container1">  
+
+        <div class="col-1">          
+                <h3 class="tieude">Cập nhật thông tin khuyến mãi </h3>
+                <div class="emailkm">
+                    <input type="text"  placeholder="Email của bạn">
+                    <a href="#">Gửi đăng ký</a>
+                </div>
+                <p class="dv">
+                    Đăng ký nhận tin từ VienTongelectronic.com, cơ hội nhận quyền lợi giảm giá riêng biệt
+                    </a>
+                </p>
+                <ul class="list-social">
+                    <li><a href="https://www.facebook.com/" class="social-link "><i class="fa fa-facebook" ></i> </a></li>
+                    <li><a href="https://www.instagram.com/" class="social-link1 "><i class="fa fa-instagram" ></i>  </a></li>
+                    <li><a href="https://www.youtube.com/"  class="social-link1"> <i class="fa fa-youtube-play"></i></a>
+                    </li>                    
+                </ul>
+             
+            
+        </div>
+        <div class="col-2">      
+                <h3 class="tieude">Hỗ trợ khách hàng</h3>
+                <div class="danhsach">
+                    <ul>
+                   <li> <a href="tel:18001234">Hotline : <b>18001234 </b></a></li>
+                     <li> <a href="tel:18001234#">Hướng dẫn mua hàng</a></li>
+                      <li> <a href="#">Chính sách bảo mật</a></li>
+                          <li> <a href="#">Chính sách thanh toán</a></li>
+                            <li><a href="#">Chính sách vận chuyển</a></li>
+                               <li><a href="#">Chính sách bảo hành</a></li>
+                            </ul>
+                
+            </div>
+        </div>
+        <div class="col-3">
+         
+                <h3 class="tieude">Về Viên Tổng </h3>
+                <div class="danhsach">
+                    <ul>
+                     <li> <a href="#">Giới thiệu</a></li>
+                          <li>  <a href="#">Hệ thống cửa hàng</a></li>
+                               <li><a href="#">Tin tuyển dụng</a></li>
+                                   <li>  <a href="#">Cam kết chính hãng</a></li>
+                                      <li> <a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+
+        <div class="col-4"> 
+            <div class="item">
+            <a href="#" ><img src="image/logo.jpg" alt="logo " style="max-width: 150px;margin-bottom: 5px;"></a>           
+            <span class="tieude"> CÔNG TY CỔ PHẦN BÁN LẺ VIÊN TỔNG ELECTRONIC </span>
+            <table>
+              <tbody>               
+                <tr>
+                  <td><i class="fa fa-map-marker"></i></td>
+                  <td> Địa chỉ: 06 Trần Văn Ơn, Phú Hoà, Thủ Dầu Một, Bình Dương</td>
+                </tr>
+                 <tr>
+                  <td> <i class="fa fa-mobile"></i></td>
+                  <td> Email:vientonge@gmail.com.vn</td>
+                </tr>
+                 <tr>
+                  <td><i class="fa fa-phone" ></i></td>
+                  <td> Điện thoại: 012 7895 1234</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        
+
+
+        
+    
+</div>
+</footer>
+</body>
+		<script src="javascript/2.js"></script>
+   
+</html>
